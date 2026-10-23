@@ -1,4 +1,4 @@
-# Copyright © 2025 Lior Brown
+# Copyright © 2026 Lior Brown
 # All rights reserved.
 #
 # Created for: Introduction to Programming, Ariel University
@@ -7,17 +7,19 @@
 # This program asks for the user's name
 # and greets them with a personalized good-morning message.
 
-name = input("Please insert your name: ") # קלט
-message = f"Good morning {name} you are champion" # עיבוד
-print(message) # פלט
-
 ############### Q2 ############
 # This program asks for the circle's radius and outputs its area and circumference.
 
-############### Q3 ############
-# This program gets an integer from the user and outputs 1 if it's even, and 0 if it's odd.
+############# Q3 #############
+# This program program gets 2 integers x, y and:
+# 1) Prints the multiplication of x by y
+# 2) x times: Prints y, seperates by +
+# 3) y times: Prints x, seperates by +
 
 ############### Q4 ############
+# This program gets an integer from the user and outputs 1 if it's even, and 0 if it's odd.
+
+############### Q5 ############
 # This program gets three integers from the user:
 # 1) The number of holes in the piccolo.
 # 2) The jump length (how many holes the finger moves each time).

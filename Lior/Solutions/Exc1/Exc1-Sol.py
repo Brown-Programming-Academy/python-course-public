@@ -29,7 +29,23 @@ circumference = 2 * PI * radius
 print(f"The area is {area}")
 print(f"The circumference is {circumference}")
 
-############### Q3 ############
+############# Q3 #############
+# This program program gets 2 integers x, y and:
+# 1) Prints the multiplication of x by y
+# 2) x times: Prints y, seperates by +
+# 3) y times: Prints x, seperates by +
+
+x = input("Please insert integer X:")
+y = input("Please insert integer Y:")
+
+x_int = int(x)
+y_int = int(y)
+
+print(x_int * y_int)
+print(f"{(x_int - 1) * f"{y}+"}{y}")
+print(f"{(y_int - 1) * f"{x}+"}{x}")
+
+############### Q4 ############
 # This program gets an integer from the user and outputs 1 if it's even, and 0 if it's odd.
 
 # Ask the user for a number (convert the input text to an integer)
@@ -42,7 +58,7 @@ result = 1 - n % 2
 # Display the result to the user
 print(result)
 
-############### Q4 ############
+############### Q5 ############
 # This program gets three integers from the user:
 # 1) The number of holes in the piccolo.
 # 2) The jump length (how many holes the finger moves each time).
